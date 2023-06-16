@@ -13,7 +13,7 @@ func main() {
 		fmt.Println("Boleh kenalan kakak?")
 	}
 
-	if length := len(name); length > 5 { // type short condition
+	if length := len(name); length > 5 { // type short statement
 		fmt.Println("Nama terlalu panjang")
 	} else {
 		fmt.Println("Nama sudah benar")
